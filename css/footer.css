@@ -1,0 +1,72 @@
+/**----------this page for footer for the website----------------**/
+footer{
+    
+    width: 100%;
+    background-color: #222;
+    padding: 30px 0px;
+    margin-top: 100%;
+    text-align: center;
+    
+}
+    
+    
+}
+footer >.wrapper2{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+#li{
+    padding: 10 10 10 10;
+    text-decoration: none;
+}
+#footer_a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+#footer_a{
+    text-decoration: none;
+    color:white;
+    margin: 10 10 10 10;
+    padding: 10 10 10 10;
+
+}
+footer ul{
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    text-transform: uppercase;
+}
+.footer_bottom{
+    color:white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+/*-----------------footerends---------------------------*/
+
+/*---------------------footer icon---------------------*/
+div.fa-facebook,div.fa-instagram,div.fa-twitter,div.fa-youtube{
+    color: black;
+    background-color: #c1c1c1;
+    margin: 10 10 10 10;
+    padding: 5 5 5 5;
+    border-radius: 50px;
+}
+div.fa-facebook:hover,div.fa-instagram:hover,div.fa-twitter:hover,div.fa-youtube:hover{
+    background-color: white;
+}
+div.fa-facebook:hover{
+    color: #3b5998;
+}
+div.fa-instagram:hover{
+    color: #d62976;
+}
+div.fa-twitter:hover{
+    color: #00acee;
+}
+div.fa-youtube:hover{
+    color: red;
+}
+/*---------------------footer icon ends---------------------*/

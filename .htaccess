@@ -1,0 +1,7 @@
+ErrorDocument 400 http://phonemozo.epizy.com/error/error.html
+ErrorDocument 401 http://phonemozo.epizy.com/error/error.html
+ErrorDocument 403 http://phonemozo.epizy.com/error/error.html
+ErrorDocument 404 http://phonemozo.epizy.com/error/error.html
+ErrorDocument 503 http://phonemozo.epizy.com/error/error.html
+DirectoryIndex index.php index.html index.htm index2.html
+ErrorDocument 503 https://infinityfree.net/errors/503/

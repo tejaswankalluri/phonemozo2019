@@ -1,0 +1,285 @@
+
+
+#heading{
+    animation-name: rightFadeInOut;
+    animation-delay: 1s;
+    animation-duration: 1.2s;
+    animation-fill-mode: backwards;
+    color: white;
+}
+#swipe_down{
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    color: white;
+    animation-name: rightFadeInOut;
+    animation-delay: 2s;
+    animation-duration: 0.5s;
+    animation-fill-mode: backwards;
+}
+#v{
+    padding-top: 3px;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    animation-name: rightFadeInOut;
+    animation-delay: 2s;
+    animation-duration: 0.5s;
+    animation-fill-mode: backwards;
+}
+.content {
+	margin-top: 10px;
+}
+.content > .why_to{
+	font-family:sans-serif;
+	font-size:35px;
+	margin:50 10 20 10;
+	color: rgba(0, 0, 0, 0.9);
+	text-align:center;
+	font-style:bold;
+    
+}
+
+
+.content > .symbol_text > .center_img{
+	width:80px;
+	height:80px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.content > .symbol_text{
+	text-align: center;
+	font-family: calibri;
+	font-size: 32px;
+	color: rgba(0, 0, 0, 0.8);
+	margin: 50 10 10 10;
+}
+.content > .symbol_text > .meaning_text{
+	font-family: arial,calibri;
+	font-size: 20px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.5);
+	margin: 10 10 10 10;
+}
+section.sec1 > .heading{
+	padding: center;
+	color: white;
+	
+}
+.content_middle{
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    margin: 0;
+    margin-top: 30px;
+}
+.content_middle > .middle_head{
+    
+    text-align: center;
+    color: white;
+    margin: 10 10 10 10;
+    padding: 10 10 10 10;
+    font-size: 50px;
+    font-family: monospace,calibri;
+}
+.content_middle > .middle_head > .middle_content{
+    margin: 10 10 10 10;
+    padding: 10 10 10 10;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.login_middle{
+    text-align: center;
+}
+
+#fb_button{
+    background-color: #3b5998;
+    border: none;
+    padding: 10 10 10 10;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    border-radius: 3px;
+    margin: 10px;
+}
+#fb_button:hover{
+    background-color: #4061a7;
+}
+#card_heading{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+    font-family: monospace,calibri;
+    margin: 30 10 10 10 ;
+    margin-bottom: 50px;
+    font-style: bold;
+}
+#card_head{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace,calibri;
+    margin: 10 10 10 10 ;
+    font-style: bold;
+}
+
+#wrap{
+    width: 1000px;
+    margin: auto;
+    
+    border: 5px;
+    border-radius: 10px;
+}
+#card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.4s;
+    width: 300px;
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    float: left;
+    margin: 10px;
+    
+}
+#card_img{
+    width:100%;
+}
+
+#card:hover{
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6); 
+}
+
+
+@media screen and (max-width: 600px){
+	section.sec1 > .heading{
+		padding: center;
+	}	
+	h1{
+		font: bold 40px calibri;
+	}		
+}
+/*---------footer------------*/
+footer{
+    width: 100%;
+    background-color: #222;
+    padding: 30px 0px;
+    margin-top: 50%;
+    text-align: center;
+    
+    
+}
+footer >.wrapper2{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+#li{
+    padding: 10 10 10 10;
+    text-decoration: none;
+}
+#footer_a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+#footer_a{
+    text-decoration: none;
+    color:white;
+    margin: 10 10 10 10;
+    padding: 10 10 10 10;
+
+}
+footer ul{
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.footer_bottom{
+    color:white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+/*-----------------footerends---------------------------*/
+
+/*---------------------footer icon---------------------*/
+div.fa-facebook,div.fa-instagram,div.fa-twitter,div.fa-youtube{
+    color: black;
+    background-color: #c1c1c1;
+    margin: 10 10 10 10;
+    padding: 5 5 5 5;
+    border-radius: 50px;
+}
+div.fa-facebook:hover,div.fa-instagram:hover,div.fa-twitter:hover,div.fa-youtube:hover{
+    background-color: white;
+}
+div.fa-facebook:hover{
+    color: #3b5998;
+}
+div.fa-instagram:hover{
+    color: #d62976;
+}
+div.fa-twitter:hover{
+    color: #00acee;
+}
+div.fa-youtube:hover{
+    color: red;
+}
+/*---------------------footer icon ends---------------------*/
+@keyframes rightFadeInOut {
+  0% {
+    text-align:center;
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+    text-align:center;
+  }
+}
+
+/*-----------------------media-----------------------------*/
+@media screen and (max-width:768px){
+    .content > .why_to{
+	font-size: 26px;
+    
+   }
+    .content > .symbol_text > .center_img{
+        width: 60px;
+        height: 60px;
+    }
+    .content > .symbol_text{
+        font-size: 25px;
+    }
+    .content > .symbol_text > .meaning_text{
+        font-size: 17px;
+    }
+    .content_middle > .middle_head{
+        font-size: 45px;
+    }
+    .content_middle > .middle_head > .middle_content{
+        font-size: 25px;
+        margin: 5px;
+        padding: 0px;
+    }
+    #fb_button{
+        font-size: 16px;
+        margin: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

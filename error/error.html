@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>phone mozo - tech</title>
+     <!-- Jquery needed for nav bar -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--stylesheets-->
+      <link rel="stylesheet" href="../css/error.css">
+    
+    
+</head>
+    <body>
+          <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">PHONE MOZO</a>
+				<img src="../photos/phone mozo logo big.jpg" class="logo_mobile" align="center">
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../tech/tech.html">News</a></li>
+                    <li><a href="#">Tech</a></li>
+                    <li><a href="#">Search</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+        <a><img src="../photos/error2.jpg" align="center" id="error"></a>
+    </section>
+        <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+  <script  src="../js/index.js"></script>
+    </body>
+</html>

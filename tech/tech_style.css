@@ -1,0 +1,124 @@
+.main_tech{
+    margin: 50 10 10 30;
+    font-size:15px;
+    font-family: sans-serif;
+    float: left;
+}
+.main_tech_head{
+    font-family: quicksand,arial;
+    font-size: 25px;
+}
+hr{
+    color: red;
+    height:2px;
+    text-decoration-line: none;
+    margin: 5 10 0 0;
+    max-width: 500px;
+}
+.main_tech_subject > .main_tech_1{
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 50 10 10 10;
+}
+.a{
+    text-decoration: none;
+    max-width: 800px;
+}
+.main_tech_subject > .a > .main_tech_subject_head{
+    margin: 10 10 10 10;
+    font-family: arial;
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+    max-width: 800px;
+}
+.main_tech_subject > .a > .main_tech_subject_head:hover,.main_tech_subject_2 > .a > .main_tech_subject_head_2:hover{
+    color:rgb(108, 108, 108);
+}
+#author{
+    text-decoration: none;
+    color:black;
+}
+#author:hover{
+    color:rgba(107, 111, 111, 0.65);
+}
+.main_tech > .main_tech_subject > .main_tech_content{
+    color:rgb(28, 28, 28);
+    max-width: 800px;
+    margin:30 10 10 10;
+    font-size: 13px;
+    line-height:18px;
+}
+
+.main_tech > .main_tech_subject > .tech_date_author{
+    margin: 10 10 10 10;
+}
+
+.main_tech_subject_2{
+    margin: 50 10 10 10;
+    float: left;
+}
+.main_tech_subject_2 > .main_tech_2, #ad{
+     display: block;
+    max-width: 90%;
+    height: auto;
+    
+}
+.main_tech_subject_2 > .a > .main_tech_subject_head_2{
+    margin: 10 10 10 0;
+    font-family: arial;
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+    max-width: 350px;
+}
+.main_tech_subject_2 > .main_tech_content_2{
+    color:rgb(28, 28, 28);
+    max-width: 350px;
+    margin:30 0 10 0;
+    font-size: 13px;
+    line-height:18px;
+}
+
+
+.popular_news,.tech_news{
+    margin: 50 10 10 30;
+    font-size:15px;
+    
+}
+
+.popular_news > .popular_body , .tech_news > .popular_body {
+    margin: 10 10 10 10;
+    font-size:13px;
+    font-family: arial;
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+.popular_img{
+    margin: 0 10 0 0;
+}
+
+h4{
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size:18px;
+}
+h4:hover{
+    color: black;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 550;
+}
+@media screen and (min-width: 992px){
+    .main_tech{
+        width:67.77777777%;
+    }
+    
+}
