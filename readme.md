@@ -1,1 +1,2 @@
-# this is a open source contibute any one can edit this 
+# open source 
+this is an open source any one can contribute on this project
